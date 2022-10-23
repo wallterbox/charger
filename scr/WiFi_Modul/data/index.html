@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>wallterbox - charge smart and efficient</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+	<meta http-equiv="refresh" content="60">	
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- <link rel="stylesheet" href="all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="gauge.min.js"></script>
+  </head>
+  <body>
+    <div class="topnav">
+      <img src="logo.png" alt="wallterbox"></br>
+    </div>
+	
+    <div class="content">
+      <div class="card-grid">
+        <div class="card">
+          <p class="card-title">Power</p>
+	      <img src="e-charge.jpg" alt="charge" content="width=device-width, initial-scale=1" ></br>	
+		   <a href="/SolarCharge"> <img src="solar_chrg.png" alt="Solarladen"> </a>	 
+		   <a href="/NightCharge"> <img src="night_chrg.png" alt="Nachtladen"> </a>	 
+		   <a href="/OffCharge"> <img src="off_chrg.png" alt="Stop"> </a>	 
+          <canvas id="gauge-chargingpower"></canvas>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

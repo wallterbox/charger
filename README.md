@@ -5,4 +5,6 @@ Erster Code für die wallterbox-hardware
 * ESP: 2.0.5 | https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 * Verzeichnis "libs" muss in \Documents\Arduino\libraries 
 * Verzeichnis "scr" ist das Projekt
-*
+* Verzeichnis "img" hat Bilder der Box
+
+![charger pic](https://github.com/wallterbox/charger/blob/main/img/charger_pcb.jpg?raw=true)
